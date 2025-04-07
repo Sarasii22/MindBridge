@@ -1,0 +1,74 @@
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 369.99px;
+  height: 484.21px;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card-header h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.card-header p {
+  margin: 0;
+  font-size: 12px;
+  color: #777;
+}
+
+.card-image {
+  width: 369.99px; /* Fixed width */
+  height: 369.99px; /* Fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  display: block;
+}
+
+.card-actions {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Pushes left and right groups apart */
+  align-items: center; /* Centers vertically */
+  height: 23.89px; /* Set the height as specified */
+  width: 336.4px; /* Total width of all icons as specified */
+}
+
+.left-actions {
+  display: flex;
+  gap: 6.6px; /* No gap between icons on the left */
+  width: 91.52px; /* Total width for the three left icons */
+}
+
+.right-action {
+  display: flex;
+  justify-content: flex-end; /* Pushes the bookmark to the right */
+  flex-grow: 1; /* Takes up remaining space */
+}
+
+.action-icon {
+  width: 23.89px; /* Each icon width as specified */
+  height: 23.89px; /* Each icon height as specified */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-icon svg {
+  color: #000; /* Ensures the outline is black */
+  font-size: 18px; /* Adjust size if needed to fit within 23.89px */
+}
